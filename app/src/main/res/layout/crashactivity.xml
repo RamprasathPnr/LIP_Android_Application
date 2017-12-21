@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:background="@mipmap/ic_launcher"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="20dp"
+        android:text="@string/internalError"
+        android:textColor="@color/available_color"
+        android:textStyle="bold"
+        android:id="@+id/textView"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imageView" />
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+        <!--android:text="@string/technicalFault"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:id="@+id/textView6"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_centerHorizontal="true" />-->
+
+
+    <!--<Button-->
+        <!--android:id="@+id/buttonContinue"-->
+        <!--android:layout_width="150dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:onClick="continueLogin"-->
+        <!--android:background="@color/login_posAppName"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:textSize="20dp"-->
+        <!--android:textStyle="bold"-->
+        <!--android:text="@string/close"-->
+        <!--android:layout_marginTop="49dp"-->
+        <!--android:layout_below="@+id/textView6"-->
+        <!--android:layout_centerHorizontal="true" />-->
+
+
+</RelativeLayout>

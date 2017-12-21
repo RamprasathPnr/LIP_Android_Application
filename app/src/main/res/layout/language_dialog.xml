@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_border"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewNwTitleEn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="#00322a"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:textSize="23dp"
+        android:text="@string/language_selection" />
+
+    <TextView
+        android:id="@+id/textViewNwTitleTamil"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:gravity="center"
+        android:textColor="#00322a"
+        android:textSize="23dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/language_english"
+            android:layout_width="fill_parent"
+            android:background="@drawable/background_grey"
+            android:layout_height="45dp">
+
+            <RelativeLayout
+                android:id="@+id/englishSelection"
+                android:layout_width="50dp"
+                android:layout_marginLeft="5dp"
+                android:layout_centerVertical="true"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/circle_language_background">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/icon_active_wright"
+                    android:layout_centerInParent="true" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="English"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textSize="20dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/language_tamil"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_grey"
+            android:layout_height="45dp">
+
+            <RelativeLayout
+                android:id="@+id/tamilSelection"
+                android:layout_width="50dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="35dp"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/circle_language_background">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/icon_active_wright"
+                    android:layout_centerInParent="true" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tamilText"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="@string/tamil"
+                android:textColor="@color/white"
+                android:textSize="23dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:padding="1dp"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/login_background" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonNwCancel"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@drawable/button_text_onclick"
+                android:background="@drawable/button_pressed_bg"
+                android:text="@string/cancel" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/login_background" />
+
+            <Button
+                android:id="@+id/buttonNwOk"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:textColor="@drawable/button_text_onclick"
+                android:background="@drawable/button_pressed_bg"
+                android:text="@string/ok" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

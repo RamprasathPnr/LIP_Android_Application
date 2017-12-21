@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#509C3F</color>
+    <color name="colorPrimaryDark">#127124</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="text_color">#FFF</color>
+
+    <color name="tablayout_primary">#444444</color>
+    <color name="tablayout_accent">#ffffff</color>
+
+    <color name="payment_failed">#cc1a01</color>
+
+    <!--Button colors-->
+    <color name="get_started">#509C3F</color>
+    <color name="btn_resendotp">#DBDBDB</color>
+    <color name="btn_resendotp_clicked">#f7f3f3</color>
+    <color name="spinner_color">#f7f3f3</color>
+    <color name="check_time_btn_color">#1d3113</color>
+
+    <color name="btn_participate">#80dd00</color>
+    <color name="btn_participate_clicked">#cdfa8e</color>
+
+    <color name="blue">#2196F3</color>
+    <color name="get_started_clicked">#7bde8e</color>
+    <color name="black_trans">#34848484</color>
+    <color name="black">#000</color>
+    <color name="tv_color">#b1b1b1</color>
+    <color name="snake_bar_color">#be0f0f</color>
+    <color name="appointment_txtcolor">#828282</color>
+    <color name="appointment_bgcolor">#e2fd9205</color>
+
+    <color name="base">#000000</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="dark_gray">#C0C0C0</color>
+    <color name="light_gray">#e9e9e9</color>
+    <color name="login_background">#509C3F</color>
+    <color name="dark_green">#284e1f</color>
+
+    <color name="available_color">#71d240</color>
+    <color name="selected_color">#51773e</color>
+
+    <color name="tumblr_primary">#424242</color>
+    <color name="tumblr_orange">#F2992E</color>
+    <color name="tumblr_green">#56BC8A</color>
+    <color name="tumblr_white">#FFFFFF</color>
+    <color name="tumblr_grey">#748089</color>
+    <color name="tumblr_blue">#4AA8D8</color>
+    <color name="tumblr_red">#D95E40</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <!--QRCode Related Color-->
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#c0ffbd21</color> <!-- Android standard ICS color -->
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color> <!-- Android standard ICS color -->
+    <color name="result_text">#ffffffff</color>
+    <color name="viewfinder_laser">#ffcc0000</color> <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+
+    <color name="seekbar_color">#F9A825</color>
+
+    <color name="orange_500">#FF9800</color>
+    <!--<color name="transparent">#00000000</color>-->
+    <color name="app_text_color">#212121</color>
+    <color name="color_pink">#E91E63</color>
+
+
+</resources>

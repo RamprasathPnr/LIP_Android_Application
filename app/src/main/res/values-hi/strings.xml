@@ -1,0 +1,366 @@
+<resources>
+    <string name="app_name">LIP</string>
+    <string name="login">மொபைல் எண்ணை சரிபார்க்க</string>
+    <string name="registration">பதிவு</string>
+    <string name="otp"> OTP அங்கீகாரம்்</string>
+    <string name="hint_login">உங்களுடைய கைபேசி எண்ணை உள்ளிடவும்</string>
+    <string name="hint_otpw">ஒருமுறை கடவுச்சொல்லை உள்ளிடவும</string>
+    <string name="hint_terms"> நான் LIP சேவைகள், விதிமுறைகள் மற்றும் தனியுரிமை கொள்கையை ஏற்கிறேன் </string>
+    <string name="txt_otp">
+ஒருமுறை கடவுச்சொல்லை ( OTP ) உங்கள் மொபைல் எண்ணை அனுப்பி வருகிறது , அதே உள்ளிடவும் இங்கே காண்பிக்கப்படும் உள் / பதிவு</string>
+    <string name="txt_what">நீங்கள் எங்களுடன் பகிர்ந்து கொள்ள விரும்புகிறேன்?</string>
+    <string name="txt_rate">எங்கள் சேவை மதிப்பிடுக</string>
+    <string name="survey_end_txt">பங்கு பெற்றதற்கு </string>
+    <string name="survey_title">உங்கள் ஆய்வு நல்ல ஆட்சி செய்யும் சிறந்த உங்களுக்கு உதவி</string>
+    <string name="g_id"> குறை எண்</string>
+    <string name="post">வெளியிட்ட நாள்</string>
+
+    <string name="txt_Payment_Summery">கட்டணம் சாரம்</string>
+    <string name="txt_Sub_Total">கூட்டுத்தொகை ( INR )</string>
+    <string name="txt_Shipping_Amount">ஏற்றுமதி  தொகை ( INR )</string>
+    <string name="txt_TOTAL">மொத்தம் ( INR )</string>
+    <string name="txt_Supplied_by">வழங்கப்பட்ட :</string>
+    <string name="txt_Remove">அகற்று</string>
+    <string name="txt_DELIVER_TO">வழங்க</string>
+    <string name="txt_Quantity">அளவு :</string>
+    <string name="txt_Communication">தொடர்பாடல் மற்றும் டெலிவரி முகவரி</string>
+    <string name="txt_As_Registered_details">பதிவு விவரங்கள் அதே போன்ற</string>
+
+    <string name="txt_order_id">ஆணை எண்</string>
+    <string name="txt_order_placed">ஆணை மீது விதித்த </string>
+    <string name="txt_items">பொருட்கள்  </string>
+
+    <string name="txt_amount">தொகை ( INR )</string>
+
+
+    <!--Button text-->
+    <string name="btn_submit">சமர்ப்பிக்கவும்</string>
+    <string name="btn_submit_appointment">சமர்ப்பிக்கவு</string>
+    <string name="btn_check_availability">சோதி</string>
+    <string name="btn_started">தொடங்குவதற்க</string>
+    <string name="btn_calcel">ரத்து</string>
+    <string name="btn_next">அடுத்த</string>
+    <string name="btn_reotp">மீண்டும் அனுப்பவும் OTP</string>
+    <string name="btn_verify">சரிபார்க்கவும்</string>
+    <string name="btn_grievance_history">வரலாறு</string>
+    <string name="btn_confirm_time">நேரம் உறுதிப்படுத்தவும்</string>
+    <string name="btn_participating">பங்கு பெறுதல் </string>
+    <string name="btn_Start_Survey">தொடக்க சர்வே</string>
+    <string name="btn_Finish_Survey">பினிஷ்</string>
+    <string name="select_cat">பிரிவை தேர்வு செய்க</string>
+    <string name="select_sub_cat">துணை தேர்வு</string>
+    <string name="btn_Place_Order">பொருட்டு</string>
+    <string name="btn_Proceed_to_pay">செலுத்த தொடர</string>
+    <string name="btn_Save_and_proceed">சேமிக்கவும் மற்றும் தொடர</string>
+
+    <string name="btn_Apply_Filter">வடிகட்டி விண்ணப்பிக்க</string>
+
+
+    <!--menu-->
+    <string name="menu_profile">என் சுயவிவரம்</string>
+    <string name="menu_appointment">நியமனம்</string>
+    <string name="menu_grievance">குறை தீர்</string>
+    <string name="menu_settings">அமைப்புகள</string>
+    <string name="check_availability">சோதி</string>
+    <string name="appointment_history">நியமனம் வரலாறு</string>
+    <string name="venu">இடம்</string>
+    <string name="hint_peoples">எத்தனை பேர் சந்திக்க போகிறோம் ?</string>
+
+    <!--HINTS-->
+    <string name="get_started"> வரவேற்கிறோம் குடிமக்கள் ஈடுபாடு மேடை LIP வேண்டும் !</string>
+    <string name="hint_name">பெயர்</string>
+    <string name="hint_email">மின்னஞ்சல் முகவரி</string>
+    <string name="hint_mobile">மொபைல் எண்</string>
+    <string name="hint_dob">பிறந்த தேதி</string>
+    <string name="hint_address">முகவரி</string>
+    <string name="hint_pincode">அஞ்சல் குறிய</string>
+    <string name="hint_character">200 எழுத்துக்கள் விட்டு</string>
+    <string name="hint_state">நிலை</string>
+    <string name="hint_constituency">தொகுதி</string>
+    <string name="hint_district">மாவட்டம் </string>
+    <string name="hint_idnum">அடையாள எண்</string>
+    <string name="voter">வாக்காளர் எண்</string>
+    <string name="hint_enter_txt">உங்கள் உரையை இங்கே உள்ளிடு</string>
+    <string name="How_txt">எப்படி பல இன மக்களுக்கும் சந்திக்க போகிறோம் ?</string>
+    <string name="hint_max">அதிகபட்சம் 200 வார்த்தைகள்</string>
+    <string name="ch_time_slot">உங்கள் நேரம் ஸ்லாட் தேர்வு</string>
+
+    <string name="check">நேரம் பாருங்கள்</string>
+    <string name="time_slot">ஒதுக்கப்பட்ட நேரம்</string>
+    <string name="pre_time">Thanks for choosing your prefered timingto meet.you have selected your appointment on 7th June 2016 @ 13:00 hours please confirm your appointment click the bellow link</string>
+    <string name="detail_person">விபரம் நபர் சந்தித்து வேண்டும்</string>
+    <string name="name_txt">உடன் சந்திப்</string>
+    <string name="Role_txt">நபரின் கதாபாத்திரத்தை</string>
+    <string name="dt_appointment_txt">நியமனம் தேதி &amp; நேரம்</string>
+    <string name="meet_txt">நியமனம் நோக்கம்</string>
+    <string name="constituency">மாவட்ட / தொகுதி </string>
+    <string name="district">மாவட்ட </string>
+    <string name="category">பகுப்பு </string>
+    <string name="sub_category">துணை வகை </string>
+    <string name="upload_photo">புகைப்படம் அப்லோடு </string>
+    <string name="description">விளக்கம் </string>
+    <string name="preview">முன்னோட்ட</string>
+    <string name="new_photo">புதிய போட்டோி</string>
+    <string name="imagedialog">தொடர தேர்வு</string>
+    <string name="available_date">கிடைக்கும் </string>
+    <string name="selected_date">தேர்ந்தெடுக்கப்பட்ட </string>
+    <string name="loading">ஏற்றுதல்...</string>
+    <string name="tamil">\u0BA4\u0BAE\u0BBF\u0BB4\u0BCD</string>
+    <string name="toast_server_unreachable">Server Unreachable</string>
+    <string name="books">Books</string>
+    <string name="clothing">Clothing</string>
+    <string name="electronics">Electronics</string>
+    <string name="furniture">Furniture</string>
+
+
+    <!--Check box-->
+
+    <string name="chx_excellent">சிறந்த</string>
+    <string name="chx_very_good">மிகவும் சிறந்த</string>
+    <string name="chx_good">நல்ல</string>
+    <string name="chx_average">சராசரி</string>
+    <string name="chx_bad">கெட்ட</string>
+
+    <!-- Calendar -->
+    <string name="text_sunday">ஞ</string>
+    <string name="text_monday">தி</string>
+    <string name="text_tuesday">செ</string>
+    <string name="text_wednesday">பு</string>
+    <string name="text_thrusday">வி</string>
+    <string name="text_friday">வெ</string>
+    <string name="text_saturday">ச</string>
+    <string name="grievance_number">குறை எண்: </string>
+    <string name="subject">விளக்கம:்</string>
+    <string name="status">நிலை: </string>
+    <string name="postedon">வெளியிட்ட நாள்</string>
+    <string name="reason">நியமனம் காரணம்:</string>
+    <string name="news">செய்திகள்</string>
+    <string name="schemes">திட்டங்கள்</string>
+    <string name="app_id"> நியமனம் எண்</string>
+    <string name="app_details">நியமனம் விவரங்கள்</string>
+    <string name="post_feedback">உங்கள் கருத்துக்களை வெளியிடுங்கள்</string>
+    <string name="announcement">அறிவிப்பு</string>
+
+    <!--   Navigation menu title  -->
+
+    <string name="menu_prof">சுயவிவர</string>
+    <string name="menu_eshop">மின் ஷாப்பிங்</string>
+    <string name="menu_survey">சர்வே &amp; கருத்து கணிப்பு</string>
+    <string name="menu_library">மின் நூலகம்</string>
+    <string name="menu_hfa">வீட்டு வசதி நிதி முகவர</string>
+    <string name="menu_municipal">துறை</string>
+    <string name="menu_police">ஆளுகை கொள்கை</string>
+    <string name="menu_logout">வெளியேறு</string>
+    <string name="language_selection">மொழி தேர்வு</string>
+    <string name="title_activity_news_detail">NewsDetailActivity</string>
+    <string name="navigation_drawer_open">வழிசெலுத்தல் இடத்தைத் திற</string>
+    <string name="navigation_drawer_close">வழிசெலுத்தல் இடத்தை மூடு</string>
+    <string name="languageSelectionEn">மொழி தேர்வு</string>
+    <string name="cancel">ரத்து</string>
+    <string name="ok">சரி</string>
+    <string name="status_">நிலை</string>
+
+
+    <!-- QRCode -->
+    <string name="app_picker_name">Applications</string>
+    <string name="bookmark_picker_name">Bookmarks</string>
+    <string name="button_add_calendar">Add to calendar</string>
+    <string name="button_add_contact">Add contact</string>
+    <string name="button_book_search">Book Search</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_custom_product_search">Custom search</string>
+    <string name="button_dial">Dial number</string>
+    <string name="button_email">Send email</string>
+    <string name="button_get_directions">Get directions</string>
+    <string name="button_mms">Send MMS</string>
+    <string name="button_ok">OK</string>
+    <string name="button_open_browser">Open browser</string>
+    <string name="button_product_search">Product search</string>
+    <string name="button_search_book_contents">Search contents</string>
+    <string name="button_share_app">Application</string>
+    <string name="button_share_bookmark">Bookmark</string>
+    <string name="button_share_by_email">Share via email</string>
+    <string name="button_share_by_sms">Share via SMS</string>
+    <string name="button_share_clipboard">Clipboard</string>
+    <string name="button_share_contact">Contact</string>
+    <string name="button_show_map">Show map</string>
+    <string name="button_sms">Send SMS</string>
+    <string name="button_web_search">Web search</string>
+    <string name="button_wifi">Connect to Network</string>
+    <string name="contents_contact">Contact info</string>
+    <string name="contents_email">Email address</string>
+    <string name="contents_location">Geographic coordinates</string>
+    <string name="contents_phone">Phone number</string>
+    <string name="contents_sms">SMS address</string>
+    <string name="contents_text">Plain text</string>
+    <string name="history_clear_text">Clear history</string>
+    <string name="history_clear_one_history_text">Clear</string>
+    <string name="history_email_title">Barcode Scanner history</string>
+    <string name="history_empty">Empty</string>
+    <string name="history_empty_detail">No barcode scans have been recorded</string>
+    <string name="history_send">Send history</string>
+    <string name="history_title">History</string>
+    <string name="menu_encode_mecard">Use MECARD</string>
+    <string name="menu_encode_vcard">Use vCard</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_history">History</string>
+    <string name="menu_share">Share</string>
+    <string name="msg_bulk_mode_scanned">Bulk mode: barcode scanned and saved</string>
+    <string name="msg_camera_framework_bug">Sorry, the Android camera encountered a problem. You may need to restart the device.</string>
+    <string name="msg_default_format">Format</string>
+    <string name="msg_default_meta">Metadata</string>
+    <string name="msg_default_mms_subject">Hi</string>
+    <string name="msg_default_status"></string>
+    <string name="msg_default_time">Time</string>
+    <string name="msg_default_type">Type</string>
+    <string name="msg_encode_contents_failed">Could not encode a barcode from the data provided.</string>
+    <string name="msg_error">Error</string>
+    <string name="msg_google_books">Google</string>
+    <string name="msg_google_product">Google</string>
+    <string name="msg_intent_failed">Sorry, the requested application could not be launched. The barcode contents may be invalid.</string>
+    <string name="msg_invalid_value">Invalid value</string>
+    <string name="msg_redirect">Redirect</string>
+    <string name="msg_sbc_book_not_searchable">Sorry, this book is not searchable.</string>
+    <string name="msg_sbc_failed">Sorry, the search encountered a problem.</string>
+    <string name="msg_sbc_no_page_returned">No page returned</string>
+    <string name="msg_sbc_page">Page</string>
+    <string name="msg_sbc_results">Results</string>
+    <string name="msg_sbc_searching_book">Searching book\u2026</string>
+    <string name="msg_sbc_snippet_unavailable">Snippet not available</string>
+    <string name="msg_share_explanation">You can share data by displaying a barcode on your screen and scanning it with another phone.</string>
+    <string name="msg_share_text">Or type some text and press Enter</string>
+    <string name="msg_sure">Are you sure?</string>
+    <string name="msg_unmount_usb">Sorry, the SD card is not accessible.</string>
+    <string name="preferences_actions_title">When a barcode is found\u2026</string>
+    <string name="preferences_auto_focus_title">Use auto focus</string>
+    <string name="preferences_auto_open_web_title">Open web pages automatically</string>
+    <string name="preferences_bulk_mode_summary">Scan and save many barcodes continuously</string>
+    <string name="preferences_bulk_mode_title">Bulk scan mode</string>
+    <string name="preferences_copy_to_clipboard_title">Copy to clipboard</string>
+    <string name="preferences_custom_product_search_summary" formatted="false">Substitutions: %s = contents, %f = format, %t = type</string>
+    <string name="preferences_custom_product_search_title">Custom search URL</string>
+    <string name="preferences_decode_1D_industrial_title">1D Industrial</string>
+    <string name="preferences_decode_1D_product_title">1D Product</string>
+    <string name="preferences_decode_Aztec_title">Aztec</string>
+    <string name="preferences_decode_Data_Matrix_title">Data Matrix</string>
+    <string name="preferences_decode_PDF417_title">PDF417 (β)</string>
+    <string name="preferences_decode_QR_title">QR Codes</string>
+    <string name="preferences_device_bug_workarounds_title">Device Bug Workarounds</string>
+    <string name="preferences_disable_barcode_scene_mode_title">No barcode scene mode</string>
+    <string name="preferences_disable_continuous_focus_summary">Use only standard focus mode</string>
+    <string name="preferences_disable_continuous_focus_title">No continuous focus</string>
+    <string name="preferences_disable_exposure_title">No exposure</string>
+    <string name="preferences_disable_metering_title">No metering</string>
+    <string name="preferences_front_light_summary">Improves scanning in low light on some phones, but may cause glare. Does not work on all phones.</string>
+    <string name="preferences_front_light_title">Use front light</string>
+    <string name="preferences_front_light_auto">Automatic</string>
+    <string name="preferences_front_light_off">Off</string>
+    <string name="preferences_front_light_on">On</string>
+    <string name="preferences_general_title">General settings</string>
+    <string name="preferences_history_summary">Store your scans in History</string>
+    <string name="preferences_history_title">Add to History</string>
+    <string name="preferences_invert_scan_title">Invert scan</string>
+    <string name="preferences_invert_scan_summary">Scan for white barcodes on black background. Not available on some devices.</string>
+    <string name="preferences_name">Settings</string>
+    <string name="preferences_orientation_title">No automatic rotation</string>
+    <string name="preferences_play_beep_title">Beep</string>
+    <string name="preferences_remember_duplicates_summary">Store multiple scans of the same barcode in History</string>
+    <string name="preferences_remember_duplicates_title">Remember duplicates</string>
+    <string name="preferences_result_title">Result settings</string>
+    <string name="preferences_scanning_title">When scanning for barcodes, decode\u2026</string>
+    <string name="preferences_search_country">Search country</string>
+    <string name="preferences_supplemental_summary">Try to retrieve more information about the barcode contents</string>
+    <string name="preferences_supplemental_title">Retrieve more info</string>
+    <string name="preferences_vibrate_title">Vibrate</string>
+    <string name="result_address_book">Found contact info</string>
+    <string name="result_calendar">Found calendar event</string>
+    <string name="result_email_address">Found email address</string>
+    <string name="result_geo">Found geographic coordinates</string>
+    <string name="result_isbn">Found book</string>
+    <string name="result_product">Found product</string>
+    <string name="result_sms">Found SMS address</string>
+    <string name="result_tel">Found phone number</string>
+    <string name="result_text">Found plain text</string>
+    <string name="result_uri">Found URL</string>
+    <string name="result_wifi">Found WLAN Configuration</string>
+    <string name="sbc_name">Google Book Search</string>
+    <string name="wifi_changing_network">Requesting connection to network\u2026</string>
+    <string name="qrCodeInvalid">QR Code Invalid</string>
+    <string name="title_Payment_Detail">Payment Detail</string>
+
+    <string name="snake_Please_select_gender">Please select gender</string>
+    <!--Aadhaar Seeding-->
+    <string name="entryAadharNumber">ஆதார் எண்  ஸ்கேன் பண்ணவும்</string>
+    <string name="checksumValidationFail">செக்சம் சரிபார்ப்பில் தோல்வி.சரியான ஆதார் எண் உள்ளிடவும்  </string>
+
+
+    <!--TOAST MESSAGES-->
+    <!--<string name="tost_server_unreachable">சர்வர் அடையமுடியாதவை</string>-->
+    <string name="toast_appointment_success">நியமனம் வெற்றிகரமாக கோரப்பட்டது</string>
+    <string name="toast_purpose">தயவு செய்து சந்திக்க நோக்கம் நுழைய</string>
+    <string name="toast_appointment_date">தயவு செய்து நியமனம் தேதி மற்றும் நேரம் நுழைய</string>
+    <string name="toast_appointment_date_select">நாட்காட்டியில் இருந்து ஒரு நியமனம் தேதி தேர்ந்தெடுக்கவும்</string>
+    <string name="toast_avail_date">கிடைக்கும் தேதி மற்றும் நேரம் தேர்ந்தெடுக்கவும்</string>
+    <string name="toast_rating">மதிப்பீடு கொடுங்கள்</string>
+    <string name="toast_rating_comments">கருத்துகளை உள்ளிடவும்</string>
+    <string name="toast_rating_feedback">உங்கள் கருத்துக்கு நன்றி</string>
+    <string name="toast_rating_interest">உங்கள் வட்டி காட்டும் நன்றி!</string>
+    <string name="toast_feed_description">விளக்கத்தை உள்ளிடவும்</string>
+    <string name="toast_feedbk_submitted">கருத்து வெற்றிகரமாக சமர்ப்பிக்கப்பட்டது</string>
+    <string name="toast_select_category">வகையை தேர்வு செய்க</string>
+    <string name="toast_select_sub_category">துணை வகையை தேர்வு செய்க</string>
+    <string name="toast_enter_description">தயவு செய்து விளக்கத்தை உள்ளிடவும்</string>
+    <string name="toast_cancelled_image">பயனர் ரத்து பட பிடிப்பு</string>
+    <string name="toast_failed_capture_image">மன்னிக்கவும் ! படத்தை கைப்பற்ற தவறியது</string>
+    <string name="toast_grievance_posted_successfully">குறை வெற்றிகரமாக வெளியிடப்பட்டது</string>
+    <string name="toast_no_newtwork_connectivity">இல்லை newtwork இணைப்பு</string>
+    <string name="please_wait">தயவு செய்து நேரம் முடியும் வரை காத்திருக்கவும்</string>
+    <string name="toast_Please_select_rating">மதிப்பீடு தேர்ந்தெடுக்கவும் </string>
+    <string name="toast_please_select_answer">தயவு செய்து பதில் தேர்வு</string>
+    <string name="toast_please_enter_valid_otp">தயவுசெய்து செல்லுபடியாகும்  Otp</string>
+    <string name="toast_otp_sent">Otp அனுப்பப்பட்டது</string>
+    <string name="Please_Enter_the_OTP">தயவு செய்து OTP ஐ உள்ளிடுக</string>
+    <string name="otp_mismatch">OTP தவறாக பொருந்தியது.</string>
+    <string name="session_expired"> நேரம் காலாவதியாகிவிட்டது. மீண்டும் OTP அழுத்தவும்</string>
+
+    <string name="toast_please_choose_the_District">மாவட்ட தேர்வு செய்யவும்</string>
+
+
+    <string name="start_survey">Start Survey</string>
+
+    <!--Snake bar Toast-->
+
+
+    <string name="snake_mobile_valid_number">தயவு செய்து சரியான மொபைல் எண்ணை உள்ளிடுங்கள்</string>
+    <string name="snake_mobile_number">தயவு செய்து மொபைல் எண்ணை உள்ளிட்ட</string>
+    <string name="snake_select_language">தேர்வு செய்க மொழி</string>
+
+
+    <string name="snake_please_enter_the_name">தயவு செய்து பெயர் நுழைய</string>
+    <string name="snake_please_enter_the_Email_Id">தயவு செய்து மின்னஞ்சல் ஐடியை உள்ளிடவும்</string>
+    <string name="snake_Please_enter_valid_Email_Id">சரியான மின்னஞ்சல் ஐடியை உள்ளிடவும்</string>
+    <string name="snake_Please_enter_the_Mobile_Number">தயவு செய்து மொபைல் எண்ணை உள்ளிடவும்</string>
+    <string name="snake_Please_enter_the_Date_of_birth">பிறந்த தேதி நுழைய</string>
+    <string name="snake_Please_enter_the_Address">தயவுசெய்து முகவரியை உள்ளிடவும்</string>
+    <string name="snake_Please_enter_Aadhar_Id_Number">தயவு செய்து ஆதார் அடையாள எண் நுழைய</string>
+    <string name="snake_Please_enter_the_Id_Number">தயவு செய்து அடையாள எண் நுழைய</string>
+    <string name="snake_Please_enter_pin_number">Please enter pin number</string>
+    <string name="snake_Successfully_Registered">வெற்றிகரமாக பதிவு</string>
+    <string name="title_activity_shopping">மின் ஷாப்பிங்</string>
+    <string name="sortby">வரிசைப்படுத்த: </string>
+    <string name="seller_info">விற்பனையாளர் தகவல்</string>
+    <string name="uniform_waved_officer">Uniform Wares Officer</string>
+    <string name="specification">விருப்பம்</string>
+    <string name="price">விலை</string>
+    <string name="select">தேர்வு</string>
+    <string name="added_into_cart">Product Added Successfully</string>
+    <string name="title_cart">வண்டி</string>
+    <string name="title_seller">விற்பனையாளர்கள்</string>
+    <string name="snake_name_short">உங்கள் பெயர் மிகவும் சிறியதாக உள்ளது</string>
+
+    <string name="title_Payment_Confirm">கட்டணம் உறுதிப்படுத்தல்</string>
+    <string name="title_My_Orders">என் கட்டளைகள்</string>
+    <string name="internalError">Network Error</string>
+
+
+</resources>

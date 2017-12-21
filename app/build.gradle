@@ -1,0 +1,39 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "com.omneagate.lip"
+        minSdkVersion 19
+        targetSdkVersion 23
+        versionCode 5
+        versionName "2.1R1"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('libs/mail.jar')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:design:23.4.0'
+    compile 'com.google.android.gms:play-services:6.1.+'
+    compile 'com.weiwangcn.betterspinner:library-material:1.1.0'
+    compile 'org.projectlombok:lombok:1.12.6'
+    compile 'com.google.code.gson:gson:2.3.1'
+    compile 'com.mcxiaoke.volley:library-aar:1.0.0'
+    compile 'com.github.ganfra:material-spinner:1.1.1'
+    compile 'com.android.support:cardview-v7:23.4.0'
+    compile 'com.android.support:recyclerview-v7:23.4.0-rc1'
+    compile 'org.apache.commons:commons-lang3:3.3.2'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+
+}

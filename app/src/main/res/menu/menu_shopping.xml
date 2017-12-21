@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_shopping_cart"
+        android:orderInCategory="200"
+        android:title="Cart"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_filter"
+        android:orderInCategory="200"
+        android:title="filter"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_orders_history"
+        android:icon="@drawable/ic_refresh"
+        android:orderInCategory="200"
+        android:title="OrdersHistory"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_refresh"
+        android:orderInCategory="200"
+        android:title="Refresh"
+        app:showAsAction="ifRoom" />
+
+
+
+
+
+</menu>

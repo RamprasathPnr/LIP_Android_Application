@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/logo_splash" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@color/black_trans"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:background="@color/get_started"
+                        android:gravity="top">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="55dp"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="@string/registration"
+                                android:textColor="@color/text_color"
+                                android:textSize="18sp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:paddingLeft="8dp"
+                            android:paddingRight="8dp">
+
+                            <android.support.design.widget.TextInputLayout
+                                android:id="@+id/title_name"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <EditText
+                                    android:id="@+id/name_edtxt"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:drawableRight="@drawable/ic_name"
+                                    android:hint="@string/hint_name"
+                                    android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                                    android:inputType="text"
+                                    android:maxLength="50"
+                                    android:singleLine="true" />
+
+                            </android.support.design.widget.TextInputLayout>
+
+                            <android.support.design.widget.TextInputLayout
+                                android:id="@+id/title_email"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/title_name">
+
+                                <EditText
+                                    android:id="@+id/email_edtxt"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:drawableRight="@drawable/ic_email"
+                                    android:hint="@string/hint_email"
+                                    android:maxLength="50"
+                                    android:inputType="textEmailAddress"
+                                    android:singleLine="true" />
+
+                            </android.support.design.widget.TextInputLayout>
+
+                            <android.support.design.widget.TextInputLayout
+                                android:id="@+id/title_mobile"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/title_email">
+
+                                <TextView
+                                    android:id="@+id/mobile_edtxt"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="45dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:drawableRight="@drawable/ic_phone"
+                                    android:gravity="center_vertical"
+                                    android:hint="@string/hint_mobile"
+                                    android:inputType="number"
+                                    android:singleLine="true"
+                                    android:textSize="16sp" />
+
+                                <View
+                                    android:id="@+id/view_one"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_below="@+id/dob_edtxt"
+                                    android:layout_gravity="right"
+                                    android:layout_marginLeft="5dp"
+                                    android:background="@color/tv_color"
+                                    android:paddingLeft="5dp"
+                                    android:paddingRight="5dp" />
+
+                            </android.support.design.widget.TextInputLayout>
+
+                            <android.support.design.widget.TextInputLayout
+                                android:id="@+id/title_dob"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/title_mobile">
+
+                                <TextView
+                                    android:id="@+id/dob_edtxt"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="45dp"
+                                    android:layout_marginLeft="4dp"
+                                    android:drawableRight="@drawable/ic_calendar"
+                                    android:gravity="center_vertical"
+                                    android:hint="@string/hint_dob"
+                                    android:paddingRight="5dp"
+                                    android:singleLine="true"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp" />
+
+                                <View
+                                    android:id="@+id/view_one_"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_below="@+id/dob_edtxt"
+                                    android:layout_gravity="right"
+                                    android:layout_marginLeft="5dp"
+                                    android:background="@color/tv_color"
+                                    android:paddingLeft="5dp"
+                                    android:paddingRight="5dp" />
+
+
+                            </android.support.design.widget.TextInputLayout>
+
+
+                            <fr.ganfra.materialspinner.MaterialSpinner
+                                android:id="@+id/spinner_gender"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/title_dob"
+                                app:ms_alignLabels="false"
+                                app:ms_hintColor="@color/black"
+                                app:ms_multiline="false" />
+
+                            <android.support.design.widget.TextInputLayout
+                                android:id="@+id/title_address"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/spinner_gender">
+
+                                <EditText
+                                    android:id="@+id/address_edtxt"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:maxLength="200"
+                                    android:hint="@string/hint_address" />
+
+                            </android.support.design.widget.TextInputLayout>
+
+
+                            <fr.ganfra.materialspinner.MaterialSpinner
+                                android:id="@+id/spinner_district"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/title_address"
+                                app:ms_alignLabels="false"
+                                app:ms_highlightColor="@color/colorPrimary"
+                                app:ms_hintColor="@color/black"
+                                app:ms_multiline="false" />
+
+                            <fr.ganfra.materialspinner.MaterialSpinner
+                                android:id="@+id/spinner_constituency"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/spinner_district"
+                                app:ms_alignLabels="false"
+                                app:ms_highlightColor="@color/colorPrimary"
+                                app:ms_hintColor="@color/black"
+                                app:ms_multiline="false" />
+
+
+                            <android.support.design.widget.TextInputLayout
+                                android:id="@+id/title_pincode"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/spinner_constituency">
+
+                                <EditText
+                                    android:id="@+id/pincode_edtxt"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:hint="@string/hint_pincode"
+                                    android:inputType="number"
+                                    android:maxLength="7"
+                                    android:singleLine="true" />
+                            </android.support.design.widget.TextInputLayout>
+
+                            <fr.ganfra.materialspinner.MaterialSpinner
+                                android:id="@+id/spinner_idproof"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/title_pincode"
+                                app:ms_alignLabels="false"
+                                app:ms_highlightColor="@color/colorPrimary"
+                                app:ms_hintColor="@color/black"
+                                app:ms_multiline="false" />
+
+
+                            <android.support.design.widget.TextInputLayout
+                                android:id="@+id/title_idnum"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/spinner_idproof">
+
+
+                                <EditText
+                                    android:id="@+id/id_num_edtxt"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:hint="@string/hint_idnum"
+                                    android:maxLength="30"
+                                    android:singleLine="true" />
+
+
+                            </android.support.design.widget.TextInputLayout>
+
+
+                            <RelativeLayout
+                                android:id="@+id/aadharLayout"
+                                android:layout_width="match_parent"
+                                android:layout_height="43dp"
+                                android:layout_below="@+id/title_idnum"
+                                android:layout_marginTop="10dp"
+                                android:background="@drawable/registration_border"
+                                android:paddingLeft="5dp"
+                                android:paddingRight="5dp">
+
+
+                                <EditText
+                                    android:id="@+id/edtAadharNumberPartOne"
+                                    android:layout_width="70dp"
+
+                                    android:layout_height="40dp"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginLeft="3dp"
+                                    android:background="@null"
+                                    android:editable="false"
+                                    android:gravity="center"
+                                    android:inputType="none"
+                                    android:maxLength="4"
+                                    android:nextFocusDown="@+id/edtAadharNumberPartTwo"
+                                    android:singleLine="true"
+                                    android:textColor="#131313"
+                                    android:textColorHint="#868686"
+                                    android:textCursorDrawable="@drawable/color_cursor"
+                                    android:textSize="15dp"
+
+                                    />
+
+                                <View
+                                    android:id="@+id/borderAadharNumberPartOne"
+                                    android:layout_width="1dp"
+                                    android:layout_height="35dp"
+                                    android:layout_marginTop="3dp"
+                                    android:layout_toRightOf="@+id/edtAadharNumberPartOne"
+                                    android:background="#999999" />
+
+
+                                <EditText
+                                    android:id="@+id/edtAadharNumberPartTwo"
+                                    android:layout_width="70dp"
+                                    android:layout_height="40dp"
+                                    android:layout_centerVertical="true"
+                                    android:layout_toRightOf="@+id/borderAadharNumberPartOne"
+                                    android:background="@null"
+                                    android:editable="false"
+                                    android:gravity="center"
+                                    android:inputType="none"
+                                    android:maxLength="4"
+                                    android:nextFocusDown="@+id/edtAadharNumberPartThree"
+                                    android:singleLine="true"
+                                    android:textColor="#131313"
+                                    android:textColorHint="#868686"
+                                    android:textCursorDrawable="@drawable/color_cursor"
+                                    android:textSize="15dp"
+
+                                    />
+
+                                <View
+                                    android:id="@+id/borderAadharNumberPartTwo"
+                                    android:layout_width="1dp"
+                                    android:layout_height="35dp"
+                                    android:layout_marginTop="3dp"
+                                    android:layout_toRightOf="@+id/edtAadharNumberPartTwo"
+                                    android:background="#999999" />
+
+                                <EditText
+                                    android:id="@+id/edtAadharNumberPartThree"
+                                    android:layout_width="70dp"
+                                    android:layout_height="40dp"
+                                    android:layout_centerVertical="true"
+                                    android:layout_toRightOf="@+id/borderAadharNumberPartTwo"
+                                    android:background="@null"
+                                    android:editable="false"
+                                    android:gravity="center"
+                                    android:imeOptions="actionDone"
+                                    android:inputType="none"
+                                    android:maxLength="4"
+                                    android:textColor="#131313"
+                                    android:textColorHint="#868686"
+                                    android:textCursorDrawable="@drawable/color_cursor"
+                                    android:textSize="15dp" />
+
+                                <LinearLayout
+                                    android:id="@+id/spaceLayoutScan"
+                                    android:layout_width="20dp"
+                                    android:layout_height="45dp"
+                                    android:layout_toRightOf="@+id/edtAadharNumberPartThree"
+                                    android:background="@color/white"
+                                    android:orientation="horizontal"></LinearLayout>
+
+                                <ImageView
+                                    android:id="@+id/ivScan"
+                                    android:layout_width="70dp"
+                                    android:layout_height="40dp"
+                                    android:layout_toRightOf="@+id/spaceLayoutScan"
+                                    android:background="@drawable/aadhar_scan" />
+
+                            </RelativeLayout>
+
+
+                            <Button
+                                android:id="@+id/btn_submit"
+                                android:layout_width="140dp"
+                                android:layout_height="40dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_below="@+id/aadharLayout"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginRight="3dp"
+                                android:layout_marginTop="20dp"
+                                android:background="@drawable/button_background"
+                                android:text="@string/btn_submit"
+                                android:textAllCaps="false"
+                                android:textColor="@color/text_color" />
+
+
+                        </RelativeLayout>
+
+
+                    </ScrollView>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="0.8"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/monthViewLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/month_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/image_back"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/left_arrow"
+                        android:contentDescription="@string/app_name" />
+
+                    <TextView
+                        android:id="@+id/text_month"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/image_next"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/right_arrow"
+                        android:contentDescription="@string/app_name" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/day_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/text_sun"
+                        style="@style/style_days_title"
+                        android:text="@string/text_sunday"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/text_mon"
+                        style="@style/style_days_title"
+                        android:text="@string/text_monday"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/text_tue"
+                        style="@style/style_days_title"
+                        android:text="@string/text_tuesday"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/text_wed"
+                        style="@style/style_days_title"
+                        android:text="@string/text_wednesday"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/text_thu"
+                        style="@style/style_days_title"
+                        android:text="@string/text_thrusday"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/text_fri"
+                        style="@style/style_days_title"
+                        android:text="@string/text_friday"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/text_sat"
+                        style="@style/style_days_title"
+                        android:text="@string/text_saturday"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+
+                <GridView
+                    android:id="@+id/gridview"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginBottom="2dp"
+                    android:fadeScrollbars="false"
+                    android:listSelector="@android:color/transparent"
+                    android:numColumns="7"
+                    android:stretchMode="columnWidth">
+
+                </GridView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1.3"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="4dp"
+                android:background="@color/available_color" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="4dp"
+                android:text="@string/available_date"
+                android:textColor="@color/black" />
+
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/selected_color" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/selected_date"
+                android:textColor="@color/black" />
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:gravity="right"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+
+            </LinearLayout>
+
+
+            <!--<TextView
+                android:id="@+id/text_monthdfg"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:text=""
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#666666"
+                android:textSize="18sp"
+                android:textStyle="bold" />-->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/confim_lay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+          <!--  <LinearLayout
+                android:id="@+id/btn_lay"
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/check_time_btn_click"
+                android:clickable="true"
+                android:gravity="center">
+
+                &lt;!&ndash;<ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_time" />&ndash;&gt;
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Select Time"
+                    android:textColor="@color/white" />
+            </LinearLayout>-->
+
+
+            <!-- <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="30dp"
+                 android:layout_marginTop="5dp"
+                 android:background="#d3d3d3"
+                 android:orientation="horizontal">
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="20dp"
+                     android:layout_marginTop="5dp"
+                     android:text="Choose Your Time Slot"
+                     android:textColor="@color/black" />
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="10dp"
+                     android:layout_marginTop="5dp"
+                     android:text="Today date"
+                     android:textColor="@color/black" />
+
+                 &lt;!&ndash;<LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:background="#d3d3d3"
+                     android:orientation="horizontal"
+                     android:layout_marginLeft="20dp">
+
+                     &lt;!&ndash;<ImageView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:src="@drawable/ic_time" />&ndash;&gt;
+
+
+
+
+                 </LinearLayout>&ndash;&gt;
+
+
+             </LinearLayout>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <!-- <LinearLayout
+                         android:layout_width="match_parent"
+                         android:layout_height="30dp"
+                         android:layout_marginTop="15dp"
+                         android:layout_marginLeft="10dp"
+                         android:layout_marginRight="10dp"
+                         android:background="#d3d3d3"
+                         android:orientation="horizontal">
+
+                         <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:layout_marginLeft="20dp"
+                             android:layout_marginTop="5dp"
+                             android:text="Time Slot"
+                             android:textColor="@color/black" />
+
+                     </LinearLayout>-->
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:id="@+id/radiogroup_lay"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </ScrollView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:weightSum="2">
+
+
+                   <!-- <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CHOOSE YOUR TIME SLOT"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:textSize="16sp"
+                        android:id="@+id/textView6" />-->
+
+                    <fr.ganfra.materialspinner.MaterialSpinner
+                        android:id="@+id/spinner_time"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_below="@+id/title_address"
+                        app:ms_alignLabels="false"
+                        app:ms_multiline="false" />
+                </LinearLayout>
+
+                <!-- <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:orientation="vertical"
+                     android:layout_weight="0.8">
+
+                     <LinearLayout
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:layout_gravity="right"
+                         android:layout_marginRight="10dp"
+                         android:layout_marginTop="10dp"
+                         android:background="@drawable/border">
+
+                         &lt;!&ndash;<TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:padding="10dp"
+                             android:text="Thanks for choosing your prefered timingto meet.you have selected your appointment on 7th June 2016 @ 13:00 hours please confirm your appointment click the bellow link"
+                             android:textSize="12sp" />&ndash;&gt;
+
+
+                     </LinearLayout>-->
+
+
+                <LinearLayout
+                    android:id="@+id/time_lay"
+                    android:layout_width="130dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/check_time_btn_click"
+                    android:clickable="true"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_check_time" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="@string/btn_confirm_time"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <!-- <com.omneagate.ema.Utils.PullToRefresh.LoadMoreListView
+             android:id="@+id/listView"
+             style="@style/scrollbar_shape_style"
+             android:layout_width="fill_parent"
+             android:layout_height="match_parent"
+             android:layout_below="@+id/header_search"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="5dp"
+             android:layout_marginTop="5dp"
+             android:cacheColorHint="@android:color/transparent"
+             android:divider="@null"
+             android:dividerHeight="0dp"
+             android:fadeScrollbars="false" />-->
+
+    </LinearLayout>
+
+
+</LinearLayout>

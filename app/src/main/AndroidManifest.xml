@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.lip">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INSTALL_PACKAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:name="com.omneagate.lip.Service.Application"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.omneagate.lip.Activity.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Splash screen -->
+
+        <activity
+            android:name="com.omneagate.lip.Activity.GetStartedActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.omneagate.lip.Activity.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyEditText"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.omneagate.lip.Activity.OtpActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyEditText"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.omneagate.lip.Activity.RegistrationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyEditText"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.omneagate.lip.Activity.NewsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyEditText2"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.omneagate.lip.Activity.GrievancesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyEditText2"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.omneagate.lip.Activity.AppointmentFixActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyEditText2"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.omneagate.lip.Activity.AppointmentActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyEditText2"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.omneagate.lip.Activity.MyProfileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyEditText2"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.omneagate.lip.Activity.GrievanceHistoryActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyEditText2"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.omneagate.lip.Activity.AppointmentHistory"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyEditText2"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.omneagate.lip.Activity.NoInternetActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.omneagate.lip.Activity.GrievancesHistoryFullViewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyEditText2"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.omneagate.lip.Activity.AppointmentHistoryActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyEditText2"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.omneagate.lip.Activity.FeedBackActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyEditText2"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.omneagate.lip.Activity.SurveyStartActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyEditText2"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.omneagate.lip.Activity.SurveyActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyEditText2"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.omneagate.lip.Activity.SurveyEndActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyEditText2"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.omneagate.lip.Activity.EventsFullViewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyEditText2"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name="com.omneagate.lip.Activity.GroupSurveyQuestionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyEditText2"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name="com.omneagate.lip.Activity.PreviewImageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyEditText2"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name="com.omneagate.lip.Activity.ProductDetailsViewFragment"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyEditText2"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name="com.omneagate.lip.Activity.Filter_Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyEditText2"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name="com.omneagate.lip.Activity.ListofProductActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyEditText2"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name="com.omneagate.lip.Activity.SellerList"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyEditText2"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name="com.omneagate.lip.CrashActivity"
+            android:label="Sessiontimeout"
+            android:windowSoftInputMode="adjustPan|stateHidden"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.omneagate.SEND_LOG" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <receiver android:name="com.omneagate.lip.Receiver.IncomingSms">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.omneagate.lip.Activity.NewsDetailActivity"
+            android:theme="@style/MyEditText2" />
+        <activity
+            android:name="com.omneagate.lip.Activity.DepartmentActivity"
+            android:theme="@style/MyEditText2" />
+        <activity
+            android:name="com.omneagate.lip.Activity.DepartmentDetailActivity"
+            android:theme="@style/MyEditText2" />
+        <activity
+            android:name="com.omneagate.lip.Activity.PolicesListActivity"
+            android:theme="@style/MyEditText2" />
+        <activity
+            android:name="com.omneagate.lip.Activity.PoliciesDetailActivity"
+            android:theme="@style/MyEditText2" />
+        <activity
+            android:name="com.google.zxing.client.android.CaptureActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:keepScreenOn="true"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="com.google.zxing.client.android.SCAN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.omneagate.lip.Activity.ShoppingActivity"
+            android:label="@string/title_activity_shopping"
+            android:theme="@style/AppTheme"></activity>
+
+        <activity
+            android:name="com.omneagate.lip.Activity.CartActivity"
+            />
+
+        <activity
+            android:name="com.omneagate.lip.Activity.PaymentDetailActivity"
+            android:theme="@style/MyEditText2"
+            android:windowSoftInputMode="stateHidden"/>
+
+        <activity
+            android:name="com.omneagate.lip.Activity.PayConformActivity"
+            android:theme="@style/MyEditText2"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity
+            android:name="com.omneagate.lip.Activity.OrderConfirmActivity"
+            android:theme="@style/MyEditText2"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity
+            android:name="com.omneagate.lip.Activity.OrderFailedActivity"
+            android:theme="@style/Payment_failed"
+            android:windowSoftInputMode="stateHidden"/>
+
+        <activity
+            android:name="com.omneagate.lip.Activity.OrdersHistoryActivity"
+            android:windowSoftInputMode="stateHidden"/>
+
+        <activity
+            android:name="com.omneagate.lip.Activity.OrderItemsDetailsActivity"
+            android:windowSoftInputMode="stateHidden"/>
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/answer_row_card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:background="#C5CAE9"
+    android:descendantFocusability="blocksDescendants"
+    android:foreground="?attr/selectableItemBackground"
+    android:padding="@dimen/activity_horizontal_margin"
+    card_view:cardElevation="5sp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/txt_question_no"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:textColor="@color/white"
+            android:background="@color/tumblr_grey"
+            android:gravity="center"
+            android:text="A" />
+
+        <TextView
+            android:id="@+id/txt_answer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text=" Ranchi among six venues to host" />
+
+        <CheckBox
+            android:id="@+id/cb_answer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center" />
+
+        <RadioButton
+            android:id="@+id/rb_answer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:visibility="gone" />
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

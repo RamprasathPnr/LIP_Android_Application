@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+          <item
+              android:id="@+id/profile"
+              android:icon="@drawable/ic_nav_profile"
+              android:title="@string/menu_prof" />
+        <item
+            android:id="@+id/nav_grievance"
+            android:icon="@drawable/nav_grievances"
+            android:title="@string/menu_grievance" />
+
+        <item
+            android:id="@+id/nav_appointment"
+            android:icon="@drawable/nav_shopping"
+            android:title="@string/menu_appointment" />
+
+        <item
+            android:id="@+id/nav_survey"
+            android:icon="@drawable/nav_survey"
+            android:title="@string/menu_survey" />
+
+        <item
+            android:id="@+id/nav_municipal"
+            android:icon="@drawable/nav_municipal"
+            android:title="@string/menu_municipal" />
+
+        <item
+            android:id="@+id/nav_policy"
+            android:icon="@drawable/nav_governance"
+            android:title="@string/menu_police" />
+
+        <item
+            android:id="@+id/nav_shopping"
+            android:icon="@drawable/nav_shopping"
+            android:title="@string/menu_eshop" />
+
+        <item
+            android:id="@+id/nav_library"
+            android:icon="@drawable/nav_library"
+            android:title="@string/menu_library" />
+        <item
+            android:id="@+id/nav_house"
+            android:icon="@drawable/nav_hfa_house"
+            android:title="@string/menu_hfa" />
+
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/menu_logout" />
+
+
+    </group>
+
+
+</menu>
